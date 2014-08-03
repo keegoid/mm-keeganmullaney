@@ -22,3 +22,8 @@ gem "builder"
 # For deploying to BitBalloon
 gem "bitballoon"
 
+# Ruby based syntax highlighting
+gem "rouge"
+
+# Middleman extension for deploying to BitBalloon
+gem "middleman-bitballoon"
