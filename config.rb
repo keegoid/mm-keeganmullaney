@@ -95,11 +95,3 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
-# middleman-bitballoon extension
-activate :bitballoon do |bitballoon|
-  bitballoon.token = ENV["BB_TOKEN"]
-  bitballoon.site  = "keeganmullaney.bitballoon.com"
-
-  # Optional: always run a build before deploying
-  bitballoon.build_before = true
-end
