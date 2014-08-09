@@ -19,9 +19,6 @@ gem "nokogiri"
 # For atom feed
 gem "builder"
 
-# For deploying to BitBalloon
-gem "bitballoon"
-
 # Ruby based syntax highlighting
 gem "rouge"
 
